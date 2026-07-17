@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Datasets"
+  short_description: "Discover, inspect, download, and process MEGA datasets."
+  default_prompt: "Use $mega-datasets to work with this MEGA dataset."

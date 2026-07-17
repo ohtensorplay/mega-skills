@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Jobs"
+  short_description: "Run and monitor one-shot or scheduled MEGA Jobs."
+  default_prompt: "Use $mega-jobs to plan and run this workload safely."

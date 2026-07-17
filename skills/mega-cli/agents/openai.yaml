@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA CLI"
+  short_description: "Use the mega CLI for local and batch workflows."
+  default_prompt: "Use $mega-cli to complete this MEGA terminal workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Platform"
+  short_description: "Route MEGA Hub work between MCP and CLI."
+  default_prompt: "Use $mega to choose the safest MEGA workflow for this task."

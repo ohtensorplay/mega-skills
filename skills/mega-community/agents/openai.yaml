@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Community"
+  short_description: "Work with papers, collections, blogs, discussions, and webhooks."
+  default_prompt: "Use $mega-community to complete this MEGA community workflow."

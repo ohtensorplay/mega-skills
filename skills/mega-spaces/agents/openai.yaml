@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Spaces"
+  short_description: "Build, deploy, configure, and operate MEGA Spaces."
+  default_prompt: "Use $mega-spaces to deploy or operate this MEGA Space."

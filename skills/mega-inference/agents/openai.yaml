@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Inference"
+  short_description: "Use routed MEGA inference with explicit cost controls."
+  default_prompt: "Use $mega-inference to run this inference request safely."

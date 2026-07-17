@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Repositories"
+  short_description: "Manage MEGA models, repositories, files, and revisions."
+  default_prompt: "Use $mega-repositories to inspect or change this MEGA repository."
