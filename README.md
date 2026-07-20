@@ -50,6 +50,9 @@ invocation; Jobs and Sandboxes; and community workflows. The server also
 publishes two workflow resources and four prompts. Local, bulk, Git, streaming,
 secret-bearing, unsupported, and long-running work is routed to the `mega` CLI.
 
+HF-aligned describes the familiar repository and discovery workflow only.
+MEGA is independent and is not affiliated with or endorsed by Hugging Face.
+
 ## Related projects
 
 - [MEGA Codex plugin](https://github.com/ohtensorplay/mega-codex-plugin)
