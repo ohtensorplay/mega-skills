@@ -1,0 +1,44 @@
+{
+  "plugins": [
+    {
+      "name": "mega",
+      "source": "skills/mega",
+      "description": "Route MEGA work between the MCP server and the mega CLI."
+    },
+    {
+      "name": "mega-cli",
+      "source": "skills/mega-cli",
+      "description": "Use the complete MEGA Hub command-line interface."
+    },
+    {
+      "name": "mega-community",
+      "source": "skills/mega-community",
+      "description": "Work with MEGA papers, collections, posts, discussions, and pull requests."
+    },
+    {
+      "name": "mega-datasets",
+      "source": "skills/mega-datasets",
+      "description": "Discover, transfer, version, and prepare MEGA datasets."
+    },
+    {
+      "name": "mega-inference",
+      "source": "skills/mega-inference",
+      "description": "Discover models and use MEGA inference services."
+    },
+    {
+      "name": "mega-jobs",
+      "source": "skills/mega-jobs",
+      "description": "Run MEGA Jobs, schedules, Sandboxes, warm pools, logs, and billing workflows."
+    },
+    {
+      "name": "mega-repositories",
+      "source": "skills/mega-repositories",
+      "description": "Manage MEGA repositories, files, revisions, and publishing."
+    },
+    {
+      "name": "mega-spaces",
+      "source": "skills/mega-spaces",
+      "description": "Discover, configure, deploy, and operate MEGA Spaces."
+    }
+  ]
+}

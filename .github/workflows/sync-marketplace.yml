@@ -1,0 +1,39 @@
+name: Sync MEGA skills marketplace
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - marketplace.json
+      - skills/**
+      - .github/workflows/sync-marketplace.yml
+  workflow_dispatch:
+
+concurrency:
+  group: mega-skills-marketplace
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install MEGA CLI
+        run: python -m pip install --disable-pip-version-check megatensors
+      - name: Ensure public marketplace bucket
+        env:
+          MEGA_TOKEN: ${{ secrets.MEGA_MARKETPLACE_TOKEN }}
+        run: mega buckets create ohtensorplay/skills --exist-ok
+      - name: Synchronize catalog and skills
+        env:
+          MEGA_TOKEN: ${{ secrets.MEGA_MARKETPLACE_TOKEN }}
+        run: >-
+          mega sync . mega://buckets/ohtensorplay/skills --delete
+          --include marketplace.json --include 'skills/**'
