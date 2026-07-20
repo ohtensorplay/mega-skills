@@ -53,17 +53,6 @@ The Skills follow the open [Agent Skills](https://agentskills.io/) format. Each 
 
 MEGA MCP v1.1 provides 29 focused tools for identity, repository discovery and inspection, bounded `mega://` files, papers and documentation, Spaces, Jobs and Sandboxes, and community workflows. It also exposes two resources and four prompts. The CLI remains the authoritative path for work that depends on the local machine or should not enter an agent tool call.
 
-## Source and releases
-
-This repository is the canonical source for MEGA Skills. A tagged release
-validates the catalog, publishes the public MEGA Skills marketplace, and creates
-a GitHub Release automatically. The Codex plugin packages a release-pinned,
-byte-for-byte snapshot so it remains self-contained at installation time.
-
-Make workflow edits here first. Then update the plugin snapshot with its
-documented `node scripts/sync-skills.mjs --update vX.Y.Z` command; its CI rejects
-any untracked divergence.
-
 ## Skill catalog
 
 | Skill | Purpose |
