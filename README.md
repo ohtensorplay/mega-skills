@@ -43,15 +43,13 @@ npx skills add ohtensorplay/mega-skills --skill '*' -g -a codex -a opencode -y
 | `mega-inference` | Model discovery, typed Space tools, inference paths, limits, and credentials |
 | `mega-community` | Papers, collections, posts, comments, discussions, and pull requests |
 
-The Skills target MEGA MCP v1.1: 29 focused, HF-aligned tools for identity and
+The Skills target MEGA MCP v1.1: 29 focused tools for identity and
 profiles; type-specific repository search and inspection; bounded `mega://`
 files; papers and documentation; Space runtime, configuration, and dynamic
 invocation; Jobs and Sandboxes; and community workflows. The server also
 publishes two workflow resources and four prompts. Local, bulk, Git, streaming,
 secret-bearing, unsupported, and long-running work is routed to the `mega` CLI.
 
-HF-aligned describes the familiar repository and discovery workflow only.
-MEGA is independent and is not affiliated with or endorsed by Hugging Face.
 
 ## Related projects
 
