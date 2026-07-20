@@ -1,3 +1,11 @@
+<p align="center"><a href="https://mega.tensorplay.cn/"><img src="https://mega.tensorplay.cn/assets/logo-D1t6EjrA.webp" alt="MEGA" width="420" /></a></p>
+<p align="center"><i>Portable agent workflows for repositories, Spaces, Jobs, inference, and community.</i></p>
+<p align="center">
+  <img alt="Agent Skills" src="https://img.shields.io/badge/Agent-Skills-2563EB">
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-ready-111827">
+  <a href="https://github.com/ohtensorplay/mega-skills/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/ohtensorplay/mega-skills"></a>
+</p>
+
 # MEGA Agent Skills
 
 Portable workflow Skills for [MEGA Hub](https://mega.tensorplay.cn/). They use
