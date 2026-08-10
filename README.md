@@ -8,7 +8,7 @@
 
 # MEGA Agent Skills
 
-MEGA Agent Skills are portable instructions for working with [MEGA Hub](https://mega.tensorplay.cn/) from coding agents. They cover repositories, datasets, Spaces, Jobs, inference, and community work while choosing the right execution surface for each task.
+MEGA Agent Skills are portable instructions for working with [MEGA Hub](https://mega.tensorplay.cn/) from coding agents. They cover repositories, datasets, Spaces, Jobs, inference, account memory, and community work while choosing the right execution surface for each task.
 
 Start with the `mega` router. It sends bounded live-platform operations to MCP and routes local files, Git, bulk transfer, streaming, secrets, and long waits to the `mega` CLI.
 
@@ -45,13 +45,14 @@ Once installed, mention a Skill by name in your request—for example, “use `m
 | Space runtime, configuration, deployment, or tools | `mega-spaces` |
 | Jobs, schedules, Sandboxes, logs, costs, or secrets | `mega-jobs` |
 | Model discovery or inference workflows | `mega-inference` |
+| Durable account preferences, context, or standing instructions | `mega-memory` |
 | Papers, collections, posts, discussions, or pull requests | `mega-community` |
 
 ## How the Skills work
 
 The Skills follow the open [Agent Skills](https://agentskills.io/) format. Each is a self-contained folder with a `SKILL.md` file that explains when to use it, the safe sequence of steps, and the relevant MEGA surface.
 
-MEGA MCP v1.1 provides 29 focused tools for identity, repository discovery and inspection, bounded `mega://` files, papers and documentation, Spaces, Jobs and Sandboxes, and community workflows. It also exposes two resources and four prompts. The CLI remains the authoritative path for work that depends on the local machine or should not enter an agent tool call.
+MEGA MCP v1.3 provides 39 focused tools for identity, repository discovery and inspection, bounded `mega://` files, papers and documentation, Spaces, Jobs and Sandboxes, account memory, marketplace, and community workflows. It also exposes two resources and four prompts. The CLI remains the authoritative path for work that depends on the local machine or should not enter an agent tool call.
 
 ## Skill catalog
 
@@ -64,6 +65,7 @@ MEGA MCP v1.1 provides 29 focused tools for identity, repository discovery and i
 | `mega-spaces` | Discover, configure, deploy, and operate Spaces. |
 | `mega-jobs` | Run Jobs, schedules, Sandboxes, warm pools, logs, and billing workflows. |
 | `mega-inference` | Discover models and use MEGA inference services. |
+| `mega-memory` | Safely inspect and manage durable MEGA account memory. |
 | `mega-community` | Work with papers, collections, posts, discussions, and pull requests. |
 
 ## Related projects

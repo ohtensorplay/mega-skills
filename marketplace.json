@@ -31,6 +31,11 @@
       "description": "Run MEGA Jobs, schedules, Sandboxes, warm pools, logs, and billing workflows."
     },
     {
+      "name": "mega-memory",
+      "source": "skills/mega-memory",
+      "description": "Safely inspect and manage durable MEGA account memory."
+    },
+    {
       "name": "mega-repositories",
       "source": "skills/mega-repositories",
       "description": "Manage MEGA repositories, files, revisions, and publishing."

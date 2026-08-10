@@ -1,0 +1,4 @@
+interface:
+  display_name: "MEGA Memory"
+  short_description: "Manage durable MEGA account memory"
+  default_prompt: "Use $mega-memory to inspect or safely manage my durable MEGA account memory."
